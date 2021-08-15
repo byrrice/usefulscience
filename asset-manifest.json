@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/usefulscience/static/css/main.90175b37.chunk.css",
-    "main.js": "/usefulscience/static/js/main.a088c6d9.chunk.js",
-    "main.js.map": "/usefulscience/static/js/main.a088c6d9.chunk.js.map",
+    "main.js": "/usefulscience/static/js/main.1d462710.chunk.js",
+    "main.js.map": "/usefulscience/static/js/main.1d462710.chunk.js.map",
     "runtime-main.js": "/usefulscience/static/js/runtime-main.944ac867.js",
     "runtime-main.js.map": "/usefulscience/static/js/runtime-main.944ac867.js.map",
     "static/js/2.d595a2b3.chunk.js": "/usefulscience/static/js/2.d595a2b3.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.944ac867.js",
     "static/js/2.d595a2b3.chunk.js",
     "static/css/main.90175b37.chunk.css",
-    "static/js/main.a088c6d9.chunk.js"
+    "static/js/main.1d462710.chunk.js"
   ]
 }
