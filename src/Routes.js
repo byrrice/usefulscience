@@ -6,10 +6,10 @@ import Test from "./components/Test";
 export default function Routes() {
   return (
     <Switch>
-      <Route exact path="/">
+      <Route exact path="/usefulscience/">
         <Home />
       </Route>
-      <Route exact path="/test">
+      <Route exact path="/usefulscience/test">
         <Test/>
       </Route>
     </Switch>
