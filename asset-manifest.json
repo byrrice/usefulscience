@@ -1,22 +1,27 @@
 {
   "files": {
-    "main.css": "/usefulscience/static/css/main.90175b37.chunk.css",
-    "main.js": "/usefulscience/static/js/main.1c53472b.chunk.js",
-    "main.js.map": "/usefulscience/static/js/main.1c53472b.chunk.js.map",
-    "runtime-main.js": "/usefulscience/static/js/runtime-main.944ac867.js",
-    "runtime-main.js.map": "/usefulscience/static/js/runtime-main.944ac867.js.map",
-    "static/js/2.d595a2b3.chunk.js": "/usefulscience/static/js/2.d595a2b3.chunk.js",
-    "static/js/2.d595a2b3.chunk.js.map": "/usefulscience/static/js/2.d595a2b3.chunk.js.map",
-    "static/js/3.533ce17f.chunk.js": "/usefulscience/static/js/3.533ce17f.chunk.js",
-    "static/js/3.533ce17f.chunk.js.map": "/usefulscience/static/js/3.533ce17f.chunk.js.map",
+    "main.css": "/usefulscience/static/css/main.0737bc2e.chunk.css",
+    "main.js": "/usefulscience/static/js/main.d6aeee40.chunk.js",
+    "main.js.map": "/usefulscience/static/js/main.d6aeee40.chunk.js.map",
+    "runtime-main.js": "/usefulscience/static/js/runtime-main.2441ab8e.js",
+    "runtime-main.js.map": "/usefulscience/static/js/runtime-main.2441ab8e.js.map",
+    "static/js/2.a220d1b6.chunk.js": "/usefulscience/static/js/2.a220d1b6.chunk.js",
+    "static/js/2.a220d1b6.chunk.js.map": "/usefulscience/static/js/2.a220d1b6.chunk.js.map",
+    "static/js/3.fa223094.chunk.js": "/usefulscience/static/js/3.fa223094.chunk.js",
+    "static/js/3.fa223094.chunk.js.map": "/usefulscience/static/js/3.fa223094.chunk.js.map",
     "index.html": "/usefulscience/index.html",
-    "static/css/main.90175b37.chunk.css.map": "/usefulscience/static/css/main.90175b37.chunk.css.map",
-    "static/js/2.d595a2b3.chunk.js.LICENSE.txt": "/usefulscience/static/js/2.d595a2b3.chunk.js.LICENSE.txt"
+    "static/css/main.0737bc2e.chunk.css.map": "/usefulscience/static/css/main.0737bc2e.chunk.css.map",
+    "static/js/2.a220d1b6.chunk.js.LICENSE.txt": "/usefulscience/static/js/2.a220d1b6.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/usefulscience/static/media/Futura-Bold-03.00ea1826.ttf",
+    "static/media/Futura-CondensedExtraBold-05.489d4b20.ttf": "/usefulscience/static/media/Futura-CondensedExtraBold-05.489d4b20.ttf",
+    "static/media/Futura-CondensedMedium-04.4b85bbbc.ttf": "/usefulscience/static/media/Futura-CondensedMedium-04.4b85bbbc.ttf",
+    "static/media/Futura-Medium-01.36bbce08.ttf": "/usefulscience/static/media/Futura-Medium-01.36bbce08.ttf",
+    "static/media/Futura-MediumItalic-02.32079cc5.ttf": "/usefulscience/static/media/Futura-MediumItalic-02.32079cc5.ttf"
   },
   "entrypoints": [
-    "static/js/runtime-main.944ac867.js",
-    "static/js/2.d595a2b3.chunk.js",
-    "static/css/main.90175b37.chunk.css",
-    "static/js/main.1c53472b.chunk.js"
+    "static/js/runtime-main.2441ab8e.js",
+    "static/js/2.a220d1b6.chunk.js",
+    "static/css/main.0737bc2e.chunk.css",
+    "static/js/main.d6aeee40.chunk.js"
   ]
 }
