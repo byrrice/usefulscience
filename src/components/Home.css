@@ -1,0 +1,38 @@
+.bmc-btn {
+    min-width: 210px;
+    color: #000000;
+    background-color: #FFDD00 !important;
+    height: 60px;
+    border-radius: 12px;
+    font-size: 24px;
+    font-weight: Bold;
+    border: none;
+    padding: 0px 24px;
+    line-height: 27px;
+    text-decoration: none !important;
+    display: inline-flex !important;
+    align-items: center;
+    /* font-family: 'Bree Serif', cursive !important; */
+    -webkit-box-sizing: border-box !important;
+    box-sizing: border-box !important;
+}
+
+.bmc-btn:hover {
+    color:#444;
+}
+
+.external-link {
+    text-align: center;
+    margin: 1em 0 0;
+}
+
+.home {
+    padding-top: 1.5em;
+    padding-bottom: 2em;
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 0 1em;
+    padding-top: 1px;
+    padding-bottom: 1em;
+}
+
