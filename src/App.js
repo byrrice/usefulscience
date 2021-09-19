@@ -1,36 +1,37 @@
 import './App.css';
 import Routes from "./Routes";
 import React, { useState } from 'react';
+import { BrowserRouter as Router, Link } from "react-router-dom";
 
 function App() {
-
-  const [color, setColor] = useState("#333333");
-
-
+  const [color, changeColor] = useState("#333333");
+  const [stored, storeColor] = useState("#333333");
   return (
     <div className="App">
       <div className="header" style={{ backgroundColor: color }}>
         <h1>USEFUL SCIENCE</h1>
       </div>
-      <div class="nav">
-        <ul>
-          <li><a onMouseEnter={() => setColor("#333333")} onMouseLeave={() => setColor("#333333")} href="/usefulscience/" className="new">New</a></li>
-          <li><a onMouseEnter={() => setColor("#999999")} onMouseLeave={() => setColor("#333333")} href = "/search" onClick={(e) => setColor(window.getComputedStyle(e.target, null).getPropertyValue("background-color"))} className="search">Search</a></li>
-          <li><a onMouseEnter={() => setColor("#e54b4b")} onMouseLeave={() => setColor("#333333")} onClick={(e) => setColor(window.getComputedStyle(e.target, null).getPropertyValue("background-color"))} className="nutrition">Nutrition</a></li>
-          <li><a onMouseEnter={() => setColor("#e5c64b")} onMouseLeave={() => setColor("#333333")} onClick={(e) => setColor(window.getComputedStyle(e.target, null).getPropertyValue("background-color"))} className="education">Education</a></li>
-          <li><a onMouseEnter={() => setColor("#887faa")} onMouseLeave={() => setColor("#333333")} onClick={(e) => setColor(window.getComputedStyle(e.target, null).getPropertyValue("background-color"))} className="fitness">Fitness</a></li>
-          <li><a onMouseEnter={() => setColor("#4178c6")} onMouseLeave={() => setColor("#333333")} onClick={(e) => setColor(window.getComputedStyle(e.target, null).getPropertyValue("background-color"))} className="happiness">Happiness</a></li>
-          <li><a onMouseEnter={() => setColor("#eb7b98")} onMouseLeave={() => setColor("#333333")} onClick={(e) => setColor(window.getComputedStyle(e.target, null).getPropertyValue("background-color"))} className="health">Health</a></li>
-          <li><a onMouseEnter={() => setColor("#7fbf3f")} onMouseLeave={() => setColor("#333333")} onClick={(e) => setColor(window.getComputedStyle(e.target, null).getPropertyValue("background-color"))} className="environment">Environment</a></li>
-          <li><a onMouseEnter={() => setColor("#84aedf")} onMouseLeave={() => setColor("#333333")} onClick={(e) => setColor(window.getComputedStyle(e.target, null).getPropertyValue("background-color"))} className="parenting">Parenting</a></li>
-          <li><a onMouseEnter={() => setColor("#e5894b")} onMouseLeave={() => setColor("#333333")} onClick={(e) => setColor(window.getComputedStyle(e.target, null).getPropertyValue("background-color"))} className="persuasion">Persuasion</a></li>
-          <li><a onMouseEnter={() => setColor("#41c6bc")} onMouseLeave={() => setColor("#333333")} onClick={(e) => setColor(window.getComputedStyle(e.target, null).getPropertyValue("background-color"))} className="productivity">Productivity</a></li>
-          <li><a onMouseEnter={() => setColor("#9a41c6")} onMouseLeave={() => setColor("#333333")} onClick={(e) => setColor(window.getComputedStyle(e.target, null).getPropertyValue("background-color"))} className="sleep">Sleep</a></li>
-
-        </ul>
-      </div>
-      <Routes />
-      <footer id="footer">
+      <Router>
+        <div class="nav">
+          <nav>
+            <ul>
+              <li><Link onMouseEnter={() => { storeColor(color); changeColor("#333333") }} onMouseLeave={() => changeColor(stored)} to="/usefulscience/" onClick={(e) => {storeColor(color); changeColor(window.getComputedStyle(e.target, null).getPropertyValue("background-color"))}} className="new">New</Link></li>
+              <li><Link onMouseEnter={() => { storeColor(color); changeColor("#999999") }} onMouseLeave={() => changeColor(stored)} to="/search" onClick={(e) => {storeColor(color); changeColor(window.getComputedStyle(e.target, null).getPropertyValue("background-color"))}} className="search">Search</Link></li>
+              <li><Link onMouseEnter={() => { storeColor(color); changeColor("#e54b4b") }} onMouseLeave={() => changeColor(stored)} onClick={(e) => {storeColor(color); changeColor(window.getComputedStyle(e.target, null).getPropertyValue("background-color"))}} className="nutrition">Nutrition</Link></li>
+              <li><Link onMouseEnter={() => { storeColor(color); changeColor("#e5c64b") }} onMouseLeave={() => changeColor(stored)} onClick={(e) => {storeColor(color); changeColor(window.getComputedStyle(e.target, null).getPropertyValue("background-color"))}} className="education">Education</Link></li>
+              <li><Link onMouseEnter={() => { storeColor(color); changeColor("#887faa") }} onMouseLeave={() => changeColor(stored)} onClick={(e) => {storeColor(color); changeColor(window.getComputedStyle(e.target, null).getPropertyValue("background-color"))}} className="fitness">Fitness</Link></li>
+              <li><Link onMouseEnter={() => { storeColor(color); changeColor("#4178c6") }} onMouseLeave={() => changeColor(stored)} onClick={(e) => {storeColor(color); changeColor(window.getComputedStyle(e.target, null).getPropertyValue("background-color"))}} className="happiness">Happiness</Link></li>
+              <li><Link onMouseEnter={() => { storeColor(color); changeColor("#eb7b98") }} onMouseLeave={() => changeColor(stored)} onClick={(e) => {storeColor(color); changeColor(window.getComputedStyle(e.target, null).getPropertyValue("background-color"))}} className="health">Health</Link></li>
+              <li><Link onMouseEnter={() => { storeColor(color); changeColor("#7fbf3f") }} onMouseLeave={() => changeColor(stored)} onClick={(e) => {storeColor(color); changeColor(window.getComputedStyle(e.target, null).getPropertyValue("background-color"))}} className="environment">Environment</Link></li>
+              <li><Link onMouseEnter={() => { storeColor(color); changeColor("#84aedf") }} onMouseLeave={() => changeColor(stored)} onClick={(e) => {storeColor(color); changeColor(window.getComputedStyle(e.target, null).getPropertyValue("background-color"))}} className="parenting">Parenting</Link></li>
+              <li><Link onMouseEnter={() => { storeColor(color); changeColor("#e5894b") }} onMouseLeave={() => changeColor(stored)} onClick={(e) => {storeColor(color); changeColor(window.getComputedStyle(e.target, null).getPropertyValue("background-color"))}} className="persuasion">Persuasion</Link></li>
+              <li><Link onMouseEnter={() => { storeColor(color); changeColor("#41c6bc") }} onMouseLeave={() => changeColor(stored)} onClick={(e) => {storeColor(color); changeColor(window.getComputedStyle(e.target, null).getPropertyValue("background-color"))}} className="productivity">Productivity</Link></li>
+              <li><Link onMouseEnter={() => { storeColor(color); changeColor("#9a41c6") }} onMouseLeave={() => changeColor(stored)} onClick={(e) => {storeColor(color); changeColor(window.getComputedStyle(e.target, null).getPropertyValue("background-color"))}} className="sleep">Sleep</Link></li>
+            </ul>
+          </nav>
+          <Routes />
+        </div>
+        <footer id="footer">
           <div class="content">
             <nav class="menu"><ul><li class="first leaf"><a href="/about">About</a></li>
               <li class="leaf"><a href="/top">Top Posts</a></li>
@@ -42,8 +43,9 @@ function App() {
               <li class="last leaf"><a href="https://usefulsci.threadless.com/">Store</a></li>
             </ul></nav>
           </div>
-      </footer>
-    </div >
+        </footer>
+      </Router>
+    </div>
   );
 }
 
